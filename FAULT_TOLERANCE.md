@@ -4,6 +4,8 @@ The first [switching study](README.md) showed that an underestimated counter err
 
 The mathematical point builds on the drift and occupancy relationships of Catsis, Hall and Jeffrey. The redundancy argument connects to sparse-sensor error correction, where two rival states can have different suspect rows. The specific loss here is the sharp width of a **single occupancy target** on the simplex with bounded errors in the sound channels. [Nonsmooth occupancy paper](https://nonsmooth.land/wp-content/uploads/2025/05/2024_paradigm.pdf) · [Sparse-sensor error correction](https://doi.org/10.1109/TAC.2014.2303233).
 
+The [two-fault follow-up](TWO_FAULT_REPORT.md) tests five counters under simultaneous faults and compares exact decoding with a safe pairwise approximation.
+
 ## The exact ambiguity bound
 
 Let `p` and `q` be two four-mode occupancy vectors. Each chosen counter `i` has a matrix row `a_i` and error radius `ε_i`. The sound displacement rows always constrain both vectors. Among `m` extra counters permit at most `f` reports outside their advertised bounds. Then **the two vectors can share a transcript exactly when their displacement error boxes overlap and some `max(0, m − 2f)` extra counter error intervals overlap coordinatewise.**

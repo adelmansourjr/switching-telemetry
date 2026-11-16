@@ -1,0 +1,6609 @@
+{
+  "bootstrap_seed": 7848912,
+  "cohorts": {
+    "nominal": {
+      "coherent_alternative_max_separation": 0.3926241639,
+      "coherent_alternative_mean_separation": 0.0540568525,
+      "coherent_probes": 3840,
+      "fields": 64,
+      "means": {
+        "exact": {
+          "clean_covered": 384,
+          "clean_valid": 384,
+          "clean_width": 0.0561914073,
+          "correct": 56345,
+          "covered": 15744,
+          "empty": 0,
+          "fault_valid": 15360,
+          "fault_width": 0.0490891448,
+          "nonempty_uncovered": 0,
+          "resolved": 56345,
+          "total": 15744,
+          "worst_fault_trajectories": 384,
+          "worst_fault_width": 0.1091818944,
+          "wrong": 0
+        },
+        "median": {
+          "clean_covered": 384,
+          "clean_valid": 384,
+          "clean_width": 0.0603120343,
+          "correct": 54854,
+          "covered": 15744,
+          "empty": 0,
+          "fault_valid": 15360,
+          "fault_width": 0.0614884801,
+          "nonempty_uncovered": 0,
+          "resolved": 54854,
+          "total": 15744,
+          "worst_fault_trajectories": 384,
+          "worst_fault_width": 0.1143674598,
+          "wrong": 0
+        },
+        "one_fault_control": {
+          "clean_covered": 384,
+          "clean_valid": 384,
+          "clean_width": 0.0349927147,
+          "correct": 24438,
+          "covered": 4138,
+          "empty": 9131,
+          "fault_valid": 6229,
+          "fault_width": 0.0256187986,
+          "nonempty_uncovered": 2475,
+          "resolved": 24979,
+          "total": 15744,
+          "worst_fault_trajectories": 0,
+          "worst_fault_width": null,
+          "wrong": 541
+        },
+        "pairwise_envelope": {
+          "clean_covered": 384,
+          "clean_valid": 384,
+          "clean_width": 0.0562645371,
+          "correct": 56341,
+          "covered": 15744,
+          "empty": 0,
+          "fault_valid": 15360,
+          "fault_width": 0.0491359889,
+          "nonempty_uncovered": 0,
+          "resolved": 56341,
+          "total": 15744,
+          "worst_fault_trajectories": 384,
+          "worst_fault_width": 0.1092588065,
+          "wrong": 0
+        }
+      },
+      "per_field": [
+        {
+          "field": [
+            [
+              5,
+              3,
+              4,
+              5
+            ],
+            [
+              2,
+              7,
+              5,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0297397274,
+              "correct": 818,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.029909264,
+              "nonempty_uncovered": 0,
+              "resolved": 818,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0631222881,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.031203242,
+              "correct": 814,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0364944826,
+              "nonempty_uncovered": 0,
+              "resolved": 814,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0636304943,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.025435173,
+              "correct": 311,
+              "covered": 60,
+              "empty": 154,
+              "fault_valid": 86,
+              "fault_width": 0.0193155186,
+              "nonempty_uncovered": 32,
+              "resolved": 325,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 14
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0297397274,
+              "correct": 818,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0299114855,
+              "nonempty_uncovered": 0,
+              "resolved": 818,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0631222881,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              1,
+              2,
+              4
+            ],
+            [
+              6,
+              5,
+              6,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0502058606,
+              "correct": 854,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0493433788,
+              "nonempty_uncovered": 0,
+              "resolved": 854,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1148014853,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0525654343,
+              "correct": 806,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0680813457,
+              "nonempty_uncovered": 0,
+              "resolved": 806,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1218274354,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0311650217,
+              "correct": 624,
+              "covered": 126,
+              "empty": 78,
+              "fault_valid": 162,
+              "fault_width": 0.0280515179,
+              "nonempty_uncovered": 42,
+              "resolved": 628,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0502058606,
+              "correct": 854,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0493433788,
+              "nonempty_uncovered": 0,
+              "resolved": 854,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1148014853,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              6,
+              6,
+              5
+            ],
+            [
+              7,
+              5,
+              1,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.054389765,
+              "correct": 829,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.046273233,
+              "nonempty_uncovered": 0,
+              "resolved": 829,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0883495346,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0549052805,
+              "correct": 808,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0540441022,
+              "nonempty_uncovered": 0,
+              "resolved": 808,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0928797375,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0384612691,
+              "correct": 344,
+              "covered": 69,
+              "empty": 145,
+              "fault_valid": 95,
+              "fault_width": 0.0290925998,
+              "nonempty_uncovered": 32,
+              "resolved": 352,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 8
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.054389765,
+              "correct": 829,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0462815094,
+              "nonempty_uncovered": 0,
+              "resolved": 829,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0885355406,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              6,
+              2,
+              6
+            ],
+            [
+              5,
+              6,
+              6,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0657203397,
+              "correct": 882,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0582696566,
+              "nonempty_uncovered": 0,
+              "resolved": 882,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1301617878,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0797233875,
+              "correct": 840,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0770867301,
+              "nonempty_uncovered": 0,
+              "resolved": 840,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1406936055,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0343113717,
+              "correct": 352,
+              "covered": 54,
+              "empty": 156,
+              "fault_valid": 84,
+              "fault_width": 0.0275966799,
+              "nonempty_uncovered": 36,
+              "resolved": 353,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 1
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0657203397,
+              "correct": 882,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0583221435,
+              "nonempty_uncovered": 0,
+              "resolved": 882,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1322612643,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              7,
+              1,
+              3
+            ],
+            [
+              1,
+              7,
+              3,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0493159516,
+              "correct": 931,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0454699762,
+              "nonempty_uncovered": 0,
+              "resolved": 931,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1007869365,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0493159516,
+              "correct": 922,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0586479928,
+              "nonempty_uncovered": 0,
+              "resolved": 922,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1015912213,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0334827892,
+              "correct": 332,
+              "covered": 61,
+              "empty": 160,
+              "fault_valid": 80,
+              "fault_width": 0.0282205884,
+              "nonempty_uncovered": 25,
+              "resolved": 332,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0493159516,
+              "correct": 931,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0455140086,
+              "nonempty_uncovered": 0,
+              "resolved": 931,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1007869365,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              4,
+              6,
+              4
+            ],
+            [
+              6,
+              1,
+              6,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0800359974,
+              "correct": 812,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0786472143,
+              "nonempty_uncovered": 0,
+              "resolved": 812,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2038325561,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0890428624,
+              "correct": 762,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0954561946,
+              "nonempty_uncovered": 0,
+              "resolved": 762,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.212706098,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0522081593,
+              "correct": 311,
+              "covered": 57,
+              "empty": 161,
+              "fault_valid": 79,
+              "fault_width": 0.0378575852,
+              "nonempty_uncovered": 28,
+              "resolved": 316,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 5
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0800359974,
+              "correct": 812,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.078756203,
+              "nonempty_uncovered": 0,
+              "resolved": 812,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2038325561,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              3,
+              3,
+              6
+            ],
+            [
+              3,
+              5,
+              6,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0575245518,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0461159935,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1209747296,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0575245518,
+              "correct": 842,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0606416004,
+              "nonempty_uncovered": 0,
+              "resolved": 842,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1229264457,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0323343966,
+              "correct": 395,
+              "covered": 78,
+              "empty": 144,
+              "fault_valid": 96,
+              "fault_width": 0.0274717389,
+              "nonempty_uncovered": 24,
+              "resolved": 400,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 5
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0575245518,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0461159935,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1209747296,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              3,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              7,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0833208336,
+              "correct": 865,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0731939545,
+              "nonempty_uncovered": 0,
+              "resolved": 865,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1486959033,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1001556951,
+              "correct": 834,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0966261997,
+              "nonempty_uncovered": 0,
+              "resolved": 834,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1587951173,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0496313243,
+              "correct": 399,
+              "covered": 43,
+              "empty": 139,
+              "fault_valid": 101,
+              "fault_width": 0.0265918173,
+              "nonempty_uncovered": 64,
+              "resolved": 410,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 11
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0833208336,
+              "correct": 865,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0734818573,
+              "nonempty_uncovered": 0,
+              "resolved": 865,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1500656897,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              6,
+              3,
+              6
+            ],
+            [
+              1,
+              1,
+              2,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0439101046,
+              "correct": 964,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.03793612,
+              "nonempty_uncovered": 0,
+              "resolved": 964,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0773905404,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0439825045,
+              "correct": 964,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0413270661,
+              "nonempty_uncovered": 0,
+              "resolved": 964,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0780268093,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0313774611,
+              "correct": 450,
+              "covered": 75,
+              "empty": 133,
+              "fault_valid": 107,
+              "fault_width": 0.0239767559,
+              "nonempty_uncovered": 38,
+              "resolved": 450,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0439101046,
+              "correct": 964,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0379435662,
+              "nonempty_uncovered": 0,
+              "resolved": 964,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0773905404,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              7,
+              4,
+              4
+            ],
+            [
+              4,
+              6,
+              2,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0449865896,
+              "correct": 893,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0377774469,
+              "nonempty_uncovered": 0,
+              "resolved": 893,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.067293286,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.045507187,
+              "correct": 886,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0455698639,
+              "nonempty_uncovered": 0,
+              "resolved": 886,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0769170336,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0314075913,
+              "correct": 411,
+              "covered": 67,
+              "empty": 135,
+              "fault_valid": 105,
+              "fault_width": 0.0226915724,
+              "nonempty_uncovered": 44,
+              "resolved": 418,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 7
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0449865896,
+              "correct": 893,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0377800271,
+              "nonempty_uncovered": 0,
+              "resolved": 893,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.067293286,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              3,
+              4,
+              2
+            ],
+            [
+              6,
+              5,
+              4,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1002209303,
+              "correct": 767,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0868486072,
+              "nonempty_uncovered": 0,
+              "resolved": 767,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2411322939,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1005862137,
+              "correct": 758,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0977751398,
+              "nonempty_uncovered": 0,
+              "resolved": 758,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2451341555,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0735504893,
+              "correct": 379,
+              "covered": 62,
+              "empty": 133,
+              "fault_valid": 107,
+              "fault_width": 0.0471427119,
+              "nonempty_uncovered": 51,
+              "resolved": 405,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 26
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1002209303,
+              "correct": 767,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0868486072,
+              "nonempty_uncovered": 0,
+              "resolved": 767,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2411322939,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              1,
+              5,
+              6
+            ],
+            [
+              4,
+              3,
+              6,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0441083249,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0366888684,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.055158879,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0449159811,
+              "correct": 862,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0440148238,
+              "nonempty_uncovered": 0,
+              "resolved": 862,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0612127463,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0337403777,
+              "correct": 476,
+              "covered": 94,
+              "empty": 119,
+              "fault_valid": 121,
+              "fault_width": 0.0222195873,
+              "nonempty_uncovered": 33,
+              "resolved": 479,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 3
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0441083249,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0367993345,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0561181002,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              7,
+              4,
+              6
+            ],
+            [
+              2,
+              6,
+              5,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0456682809,
+              "correct": 845,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0388933612,
+              "nonempty_uncovered": 0,
+              "resolved": 845,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0834924274,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0464110498,
+              "correct": 817,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0502756941,
+              "nonempty_uncovered": 0,
+              "resolved": 817,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0837466672,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0356202895,
+              "correct": 362,
+              "covered": 85,
+              "empty": 141,
+              "fault_valid": 99,
+              "fault_width": 0.0292095228,
+              "nonempty_uncovered": 20,
+              "resolved": 368,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 6
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0456682809,
+              "correct": 844,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0390969945,
+              "nonempty_uncovered": 0,
+              "resolved": 844,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0834924274,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              3,
+              5,
+              7
+            ],
+            [
+              3,
+              3,
+              3,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0399664808,
+              "correct": 910,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0345408031,
+              "nonempty_uncovered": 0,
+              "resolved": 910,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0728501339,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0399976731,
+              "correct": 904,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.042023932,
+              "nonempty_uncovered": 0,
+              "resolved": 904,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0728501339,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0253816321,
+              "correct": 425,
+              "covered": 76,
+              "empty": 132,
+              "fault_valid": 108,
+              "fault_width": 0.0190028324,
+              "nonempty_uncovered": 38,
+              "resolved": 443,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 18
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0399664808,
+              "correct": 910,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0345408031,
+              "nonempty_uncovered": 0,
+              "resolved": 910,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0728501339,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              3,
+              5,
+              1
+            ],
+            [
+              6,
+              1,
+              6,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1401471817,
+              "correct": 736,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1011199673,
+              "nonempty_uncovered": 0,
+              "resolved": 736,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1900489192,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1529721874,
+              "correct": 657,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1312096347,
+              "nonempty_uncovered": 0,
+              "resolved": 657,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.203356575,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0750927068,
+              "correct": 396,
+              "covered": 57,
+              "empty": 126,
+              "fault_valid": 114,
+              "fault_width": 0.040879197,
+              "nonempty_uncovered": 63,
+              "resolved": 422,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 26
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1401471817,
+              "correct": 736,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1011199673,
+              "nonempty_uncovered": 0,
+              "resolved": 736,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1900489192,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              1,
+              4,
+              2
+            ],
+            [
+              2,
+              7,
+              2,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0355789167,
+              "correct": 943,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0324731853,
+              "nonempty_uncovered": 0,
+              "resolved": 943,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0374177189,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0358160822,
+              "correct": 943,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0352379551,
+              "nonempty_uncovered": 0,
+              "resolved": 943,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0374259422,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0333814058,
+              "correct": 394,
+              "covered": 82,
+              "empty": 144,
+              "fault_valid": 96,
+              "fault_width": 0.0265560906,
+              "nonempty_uncovered": 20,
+              "resolved": 394,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0355789167,
+              "correct": 943,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0324731853,
+              "nonempty_uncovered": 0,
+              "resolved": 943,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0374177189,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              3,
+              1,
+              3
+            ],
+            [
+              4,
+              3,
+              5,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0794993743,
+              "correct": 843,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0608429937,
+              "nonempty_uncovered": 0,
+              "resolved": 843,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1280931653,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0833949773,
+              "correct": 785,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0801915142,
+              "nonempty_uncovered": 0,
+              "resolved": 785,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.133485956,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0432261557,
+              "correct": 466,
+              "covered": 61,
+              "empty": 120,
+              "fault_valid": 120,
+              "fault_width": 0.0255292452,
+              "nonempty_uncovered": 65,
+              "resolved": 474,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 8
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0794993743,
+              "correct": 843,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0609630982,
+              "nonempty_uncovered": 0,
+              "resolved": 843,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1280931653,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              6,
+              3,
+              4
+            ],
+            [
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0644219285,
+              "correct": 813,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0587488399,
+              "nonempty_uncovered": 0,
+              "resolved": 813,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1779580672,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0665977556,
+              "correct": 786,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0732810208,
+              "nonempty_uncovered": 0,
+              "resolved": 786,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1797859488,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0303723367,
+              "correct": 280,
+              "covered": 50,
+              "empty": 168,
+              "fault_valid": 72,
+              "fault_width": 0.0286108254,
+              "nonempty_uncovered": 28,
+              "resolved": 290,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 10
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0644219285,
+              "correct": 813,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0587691453,
+              "nonempty_uncovered": 0,
+              "resolved": 813,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1779580672,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              7,
+              5,
+              6
+            ],
+            [
+              3,
+              5,
+              1,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0283849415,
+              "correct": 950,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0281148588,
+              "nonempty_uncovered": 0,
+              "resolved": 950,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0457203823,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0291705755,
+              "correct": 940,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0326144478,
+              "nonempty_uncovered": 0,
+              "resolved": 940,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0466019349,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0246451268,
+              "correct": 462,
+              "covered": 79,
+              "empty": 128,
+              "fault_valid": 112,
+              "fault_width": 0.0176247873,
+              "nonempty_uncovered": 39,
+              "resolved": 462,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0283849415,
+              "correct": 950,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0281214499,
+              "nonempty_uncovered": 0,
+              "resolved": 950,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0457203823,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              4,
+              2,
+              6
+            ],
+            [
+              1,
+              5,
+              2,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0414704676,
+              "correct": 944,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0357731826,
+              "nonempty_uncovered": 0,
+              "resolved": 944,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0620213177,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0478275067,
+              "correct": 920,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0480153691,
+              "nonempty_uncovered": 0,
+              "resolved": 920,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0704765293,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0284718443,
+              "correct": 387,
+              "covered": 67,
+              "empty": 148,
+              "fault_valid": 92,
+              "fault_width": 0.021653373,
+              "nonempty_uncovered": 31,
+              "resolved": 387,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0414704676,
+              "correct": 944,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0358139655,
+              "nonempty_uncovered": 0,
+              "resolved": 944,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0620213177,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              3,
+              3,
+              1
+            ],
+            [
+              7,
+              4,
+              4,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0726566197,
+              "correct": 957,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.060285636,
+              "nonempty_uncovered": 0,
+              "resolved": 957,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1378579151,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0799012156,
+              "correct": 945,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0842559186,
+              "nonempty_uncovered": 0,
+              "resolved": 945,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1409460351,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0358139464,
+              "correct": 557,
+              "covered": 99,
+              "empty": 106,
+              "fault_valid": 134,
+              "fault_width": 0.0280280211,
+              "nonempty_uncovered": 41,
+              "resolved": 558,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 1
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0727874444,
+              "correct": 957,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0604470691,
+              "nonempty_uncovered": 0,
+              "resolved": 957,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1378579151,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              3,
+              6,
+              2
+            ],
+            [
+              2,
+              6,
+              5,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0559359088,
+              "correct": 909,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.044831737,
+              "nonempty_uncovered": 0,
+              "resolved": 909,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0948719769,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0580342846,
+              "correct": 894,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0516367401,
+              "nonempty_uncovered": 0,
+              "resolved": 894,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0973178869,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0317725579,
+              "correct": 427,
+              "covered": 65,
+              "empty": 136,
+              "fault_valid": 104,
+              "fault_width": 0.0248848126,
+              "nonempty_uncovered": 45,
+              "resolved": 429,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 2
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0559359088,
+              "correct": 909,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0448358403,
+              "nonempty_uncovered": 0,
+              "resolved": 909,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0948719769,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              5,
+              2,
+              5
+            ],
+            [
+              5,
+              6,
+              2,
+              7
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0478457007,
+              "correct": 913,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0336610326,
+              "nonempty_uncovered": 0,
+              "resolved": 913,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0754876973,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0483381488,
+              "correct": 867,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0475310031,
+              "nonempty_uncovered": 0,
+              "resolved": 867,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0809567988,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0207820321,
+              "correct": 372,
+              "covered": 50,
+              "empty": 148,
+              "fault_valid": 92,
+              "fault_width": 0.0171920936,
+              "nonempty_uncovered": 48,
+              "resolved": 383,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 11
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0478457007,
+              "correct": 913,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.033886581,
+              "nonempty_uncovered": 0,
+              "resolved": 913,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0754876973,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              1,
+              6,
+              7
+            ],
+            [
+              7,
+              1,
+              5,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0373610433,
+              "correct": 776,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0353741828,
+              "nonempty_uncovered": 0,
+              "resolved": 776,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0931395269,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0393294572,
+              "correct": 763,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0455475857,
+              "nonempty_uncovered": 0,
+              "resolved": 763,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0954307135,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0224217743,
+              "correct": 296,
+              "covered": 48,
+              "empty": 153,
+              "fault_valid": 87,
+              "fault_width": 0.0145855252,
+              "nonempty_uncovered": 45,
+              "resolved": 324,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 28
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0373610433,
+              "correct": 776,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0353788017,
+              "nonempty_uncovered": 0,
+              "resolved": 776,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0931395269,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              3,
+              2,
+              2
+            ],
+            [
+              2,
+              5,
+              4,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0820033315,
+              "correct": 781,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0843367119,
+              "nonempty_uncovered": 0,
+              "resolved": 781,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.152775908,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1125468217,
+              "correct": 756,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1152607807,
+              "nonempty_uncovered": 0,
+              "resolved": 756,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1719337641,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.05499675,
+              "correct": 387,
+              "covered": 61,
+              "empty": 131,
+              "fault_valid": 109,
+              "fault_width": 0.0330370715,
+              "nonempty_uncovered": 54,
+              "resolved": 413,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 26
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0842550213,
+              "correct": 781,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0845342541,
+              "nonempty_uncovered": 0,
+              "resolved": 781,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.152775908,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              4,
+              2,
+              1
+            ],
+            [
+              6,
+              3,
+              5,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0626790779,
+              "correct": 925,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0485502152,
+              "nonempty_uncovered": 0,
+              "resolved": 925,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1234885369,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0659787401,
+              "correct": 881,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.067117903,
+              "nonempty_uncovered": 0,
+              "resolved": 881,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1346745007,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0351957176,
+              "correct": 332,
+              "covered": 53,
+              "empty": 160,
+              "fault_valid": 80,
+              "fault_width": 0.0310335702,
+              "nonempty_uncovered": 33,
+              "resolved": 333,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 1
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0626790779,
+              "correct": 925,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0485502152,
+              "nonempty_uncovered": 0,
+              "resolved": 925,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1234885369,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              7,
+              2,
+              7
+            ],
+            [
+              1,
+              5,
+              6,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0332853623,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0277186134,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0618273341,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0337209463,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0317147514,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0625310717,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0233600475,
+              "correct": 308,
+              "covered": 55,
+              "empty": 169,
+              "fault_valid": 71,
+              "fault_width": 0.022563043,
+              "nonempty_uncovered": 22,
+              "resolved": 308,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0332853623,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0277186134,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0618273341,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              4,
+              6,
+              1
+            ],
+            [
+              7,
+              7,
+              1,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0517310988,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0409014401,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0862889494,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0517310988,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0465131373,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0863176749,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0357747812,
+              "correct": 392,
+              "covered": 61,
+              "empty": 148,
+              "fault_valid": 92,
+              "fault_width": 0.0275641732,
+              "nonempty_uncovered": 37,
+              "resolved": 392,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0517310988,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0409014401,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0862889494,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              5,
+              1,
+              5
+            ],
+            [
+              7,
+              4,
+              4,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0491022701,
+              "correct": 867,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0395921275,
+              "nonempty_uncovered": 0,
+              "resolved": 867,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0825708064,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0515161108,
+              "correct": 827,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0531452339,
+              "nonempty_uncovered": 0,
+              "resolved": 827,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.098213467,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0335832316,
+              "correct": 246,
+              "covered": 35,
+              "empty": 176,
+              "fault_valid": 64,
+              "fault_width": 0.0209321766,
+              "nonempty_uncovered": 35,
+              "resolved": 254,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 8
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0491022701,
+              "correct": 867,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0396081471,
+              "nonempty_uncovered": 0,
+              "resolved": 867,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0825708064,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              4,
+              3,
+              2
+            ],
+            [
+              4,
+              4,
+              7,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0773102014,
+              "correct": 869,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0585164983,
+              "nonempty_uncovered": 0,
+              "resolved": 869,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.159052419,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0806433413,
+              "correct": 787,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0802397752,
+              "nonempty_uncovered": 0,
+              "resolved": 787,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1605813442,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0436642765,
+              "correct": 315,
+              "covered": 44,
+              "empty": 163,
+              "fault_valid": 77,
+              "fault_width": 0.028874135,
+              "nonempty_uncovered": 39,
+              "resolved": 320,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 5
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0780450712,
+              "correct": 869,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0585747227,
+              "nonempty_uncovered": 0,
+              "resolved": 869,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.159052419,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              1,
+              5,
+              2
+            ],
+            [
+              1,
+              4,
+              3,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0526460012,
+              "correct": 803,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0428887515,
+              "nonempty_uncovered": 0,
+              "resolved": 803,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.106754955,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0571626509,
+              "correct": 762,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0552950217,
+              "nonempty_uncovered": 0,
+              "resolved": 762,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1086141024,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0332263851,
+              "correct": 356,
+              "covered": 65,
+              "empty": 136,
+              "fault_valid": 104,
+              "fault_width": 0.0217257215,
+              "nonempty_uncovered": 45,
+              "resolved": 370,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 14
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0526460012,
+              "correct": 803,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0429254826,
+              "nonempty_uncovered": 0,
+              "resolved": 803,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.106754955,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              3,
+              3,
+              3
+            ],
+            [
+              7,
+              5,
+              5,
+              7
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0492189411,
+              "correct": 934,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0394180199,
+              "nonempty_uncovered": 0,
+              "resolved": 934,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0884940899,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0535052556,
+              "correct": 915,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0525692305,
+              "nonempty_uncovered": 0,
+              "resolved": 915,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0988823199,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0255365501,
+              "correct": 543,
+              "covered": 103,
+              "empty": 104,
+              "fault_valid": 136,
+              "fault_width": 0.0204066925,
+              "nonempty_uncovered": 39,
+              "resolved": 551,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 8
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0492189411,
+              "correct": 934,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0394180199,
+              "nonempty_uncovered": 0,
+              "resolved": 934,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0884940899,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              5,
+              3,
+              7
+            ],
+            [
+              7,
+              4,
+              7,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.062519669,
+              "correct": 791,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.065815134,
+              "nonempty_uncovered": 0,
+              "resolved": 791,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1850794155,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0639296849,
+              "correct": 780,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0749675523,
+              "nonempty_uncovered": 0,
+              "resolved": 780,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.186711043,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0441363822,
+              "correct": 325,
+              "covered": 53,
+              "empty": 150,
+              "fault_valid": 90,
+              "fault_width": 0.0259999411,
+              "nonempty_uncovered": 43,
+              "resolved": 352,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 27
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.062519669,
+              "correct": 791,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.065815134,
+              "nonempty_uncovered": 0,
+              "resolved": 791,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1850794155,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              5,
+              5,
+              7
+            ],
+            [
+              4,
+              2,
+              6,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0478425167,
+              "correct": 855,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0450779201,
+              "nonempty_uncovered": 0,
+              "resolved": 855,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1037901873,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0509451265,
+              "correct": 824,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0576159929,
+              "nonempty_uncovered": 0,
+              "resolved": 824,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1055518433,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.029001048,
+              "correct": 318,
+              "covered": 50,
+              "empty": 158,
+              "fault_valid": 82,
+              "fault_width": 0.0202427674,
+              "nonempty_uncovered": 38,
+              "resolved": 330,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 12
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0478425167,
+              "correct": 855,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0450779201,
+              "nonempty_uncovered": 0,
+              "resolved": 855,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1037901873,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              6,
+              2,
+              4
+            ],
+            [
+              3,
+              1,
+              7,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0938077468,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0882928856,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1995018071,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1033948224,
+              "correct": 936,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0994729023,
+              "nonempty_uncovered": 0,
+              "resolved": 936,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2016419341,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0595894202,
+              "correct": 402,
+              "covered": 53,
+              "empty": 143,
+              "fault_valid": 97,
+              "fault_width": 0.0395156759,
+              "nonempty_uncovered": 50,
+              "resolved": 406,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0938077468,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0885482521,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1995018071,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              7,
+              1,
+              4
+            ],
+            [
+              5,
+              7,
+              1,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0484912725,
+              "correct": 933,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0415986846,
+              "nonempty_uncovered": 0,
+              "resolved": 933,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0871790214,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0499601924,
+              "correct": 908,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.056499387,
+              "nonempty_uncovered": 0,
+              "resolved": 908,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1070618792,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0322170786,
+              "correct": 391,
+              "covered": 66,
+              "empty": 145,
+              "fault_valid": 95,
+              "fault_width": 0.0217505254,
+              "nonempty_uncovered": 35,
+              "resolved": 391,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0486928467,
+              "correct": 933,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0416250806,
+              "nonempty_uncovered": 0,
+              "resolved": 933,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0871790214,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              6,
+              1,
+              7,
+              7
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0418631028,
+              "correct": 881,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0340988084,
+              "nonempty_uncovered": 0,
+              "resolved": 881,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0700331252,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0446315571,
+              "correct": 847,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0448611881,
+              "nonempty_uncovered": 0,
+              "resolved": 847,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0755736039,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0197010547,
+              "correct": 295,
+              "covered": 40,
+              "empty": 166,
+              "fault_valid": 74,
+              "fault_width": 0.018126896,
+              "nonempty_uncovered": 40,
+              "resolved": 298,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 3
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0418631028,
+              "correct": 881,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0341025425,
+              "nonempty_uncovered": 0,
+              "resolved": 881,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0700331252,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              5,
+              2,
+              5
+            ],
+            [
+              1,
+              4,
+              7,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0515569206,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0494310697,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0902375067,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0575205492,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0613346797,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1006817307,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.037334373,
+              "correct": 280,
+              "covered": 38,
+              "empty": 172,
+              "fault_valid": 68,
+              "fault_width": 0.025553286,
+              "nonempty_uncovered": 36,
+              "resolved": 286,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 6
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0515569206,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0494614843,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0902375067,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              2,
+              3,
+              5
+            ],
+            [
+              5,
+              3,
+              3,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0529203501,
+              "correct": 967,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0338312059,
+              "nonempty_uncovered": 0,
+              "resolved": 967,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.068414988,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.053260123,
+              "correct": 957,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.047658268,
+              "nonempty_uncovered": 0,
+              "resolved": 957,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0703589452,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0318349002,
+              "correct": 400,
+              "covered": 46,
+              "empty": 146,
+              "fault_valid": 94,
+              "fault_width": 0.0216867875,
+              "nonempty_uncovered": 54,
+              "resolved": 400,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0529203501,
+              "correct": 967,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0338312059,
+              "nonempty_uncovered": 0,
+              "resolved": 967,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.068414988,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              1,
+              2,
+              1
+            ],
+            [
+              7,
+              5,
+              7,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0419653582,
+              "correct": 918,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0433367782,
+              "nonempty_uncovered": 0,
+              "resolved": 918,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1255666173,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.064967864,
+              "correct": 895,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0634566013,
+              "nonempty_uncovered": 0,
+              "resolved": 895,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1358958199,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0227547608,
+              "correct": 467,
+              "covered": 56,
+              "empty": 124,
+              "fault_valid": 116,
+              "fault_width": 0.0166917999,
+              "nonempty_uncovered": 66,
+              "resolved": 480,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 13
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0419653582,
+              "correct": 918,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0433561204,
+              "nonempty_uncovered": 0,
+              "resolved": 918,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1255666173,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              3,
+              6,
+              2
+            ],
+            [
+              7,
+              6,
+              6,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0720319828,
+              "correct": 834,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0643584004,
+              "nonempty_uncovered": 0,
+              "resolved": 834,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.144777739,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0742696468,
+              "correct": 816,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0779652618,
+              "nonempty_uncovered": 0,
+              "resolved": 816,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.151415085,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0437486619,
+              "correct": 340,
+              "covered": 48,
+              "empty": 152,
+              "fault_valid": 88,
+              "fault_width": 0.0296783963,
+              "nonempty_uncovered": 46,
+              "resolved": 355,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 15
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0720319828,
+              "correct": 833,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0643872912,
+              "nonempty_uncovered": 0,
+              "resolved": 833,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.144777739,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              3,
+              2,
+              3
+            ],
+            [
+              7,
+              1,
+              6,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0628174864,
+              "correct": 740,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0853410769,
+              "nonempty_uncovered": 0,
+              "resolved": 740,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2999439117,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0643996834,
+              "correct": 721,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0951431033,
+              "nonempty_uncovered": 0,
+              "resolved": 721,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.3006467311,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.035102915,
+              "correct": 284,
+              "covered": 66,
+              "empty": 157,
+              "fault_valid": 83,
+              "fault_width": 0.027994849,
+              "nonempty_uncovered": 23,
+              "resolved": 305,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 21
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0628174864,
+              "correct": 740,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0853410769,
+              "nonempty_uncovered": 0,
+              "resolved": 740,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2999439117,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              6,
+              1,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0982676136,
+              "correct": 807,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0744816514,
+              "nonempty_uncovered": 0,
+              "resolved": 807,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1539579735,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1015712226,
+              "correct": 790,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0785405503,
+              "nonempty_uncovered": 0,
+              "resolved": 790,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1569628865,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0470692181,
+              "correct": 414,
+              "covered": 85,
+              "empty": 124,
+              "fault_valid": 116,
+              "fault_width": 0.0424749074,
+              "nonempty_uncovered": 37,
+              "resolved": 421,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 7
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0982676136,
+              "correct": 807,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0744899582,
+              "nonempty_uncovered": 0,
+              "resolved": 807,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1539579735,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              7,
+              3,
+              3,
+              3
+            ],
+            [
+              1,
+              4,
+              6,
+              6
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.046913513,
+              "correct": 819,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0411647602,
+              "nonempty_uncovered": 0,
+              "resolved": 819,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0697259999,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0537742505,
+              "correct": 818,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0522546698,
+              "nonempty_uncovered": 0,
+              "resolved": 818,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0723011442,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0356564791,
+              "correct": 404,
+              "covered": 63,
+              "empty": 123,
+              "fault_valid": 117,
+              "fault_width": 0.024597238,
+              "nonempty_uncovered": 60,
+              "resolved": 454,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 50
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.046913513,
+              "correct": 819,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.041209969,
+              "nonempty_uncovered": 0,
+              "resolved": 819,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0697259999,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              1,
+              7,
+              3
+            ],
+            [
+              7,
+              3,
+              4,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0341966206,
+              "correct": 916,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0291237853,
+              "nonempty_uncovered": 0,
+              "resolved": 916,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0493434397,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.035889734,
+              "correct": 904,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0360223793,
+              "nonempty_uncovered": 0,
+              "resolved": 904,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0500336051,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0264217331,
+              "correct": 328,
+              "covered": 68,
+              "empty": 159,
+              "fault_valid": 81,
+              "fault_width": 0.0214261638,
+              "nonempty_uncovered": 19,
+              "resolved": 328,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0341966206,
+              "correct": 916,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0291237853,
+              "nonempty_uncovered": 0,
+              "resolved": 916,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0493434397,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              7,
+              6,
+              4
+            ],
+            [
+              7,
+              3,
+              6,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0521595241,
+              "correct": 832,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0455444388,
+              "nonempty_uncovered": 0,
+              "resolved": 832,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0965984074,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0548674374,
+              "correct": 808,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0568201402,
+              "nonempty_uncovered": 0,
+              "resolved": 808,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0990863099,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0316993547,
+              "correct": 441,
+              "covered": 61,
+              "empty": 121,
+              "fault_valid": 119,
+              "fault_width": 0.0195205711,
+              "nonempty_uncovered": 64,
+              "resolved": 462,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 21
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0521595241,
+              "correct": 832,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0455468252,
+              "nonempty_uncovered": 0,
+              "resolved": 832,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0965984074,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              3,
+              4,
+              7
+            ],
+            [
+              2,
+              1,
+              7,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0590893653,
+              "correct": 843,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.049910629,
+              "nonempty_uncovered": 0,
+              "resolved": 843,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1152265284,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0603227405,
+              "correct": 805,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0657933169,
+              "nonempty_uncovered": 0,
+              "resolved": 805,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1178293026,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0304595961,
+              "correct": 299,
+              "covered": 55,
+              "empty": 161,
+              "fault_valid": 79,
+              "fault_width": 0.0270986352,
+              "nonempty_uncovered": 30,
+              "resolved": 306,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 7
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0590893653,
+              "correct": 843,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0499394636,
+              "nonempty_uncovered": 0,
+              "resolved": 843,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1152265284,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              1,
+              7,
+              7
+            ],
+            [
+              5,
+              6,
+              5,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0318115071,
+              "correct": 820,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0265259879,
+              "nonempty_uncovered": 0,
+              "resolved": 820,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0478090467,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0318115071,
+              "correct": 820,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.03183309,
+              "nonempty_uncovered": 0,
+              "resolved": 820,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0519394548,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0257984746,
+              "correct": 307,
+              "covered": 61,
+              "empty": 159,
+              "fault_valid": 81,
+              "fault_width": 0.019789263,
+              "nonempty_uncovered": 26,
+              "resolved": 311,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0318115071,
+              "correct": 820,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0266031352,
+              "nonempty_uncovered": 0,
+              "resolved": 820,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0478090467,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              6,
+              3,
+              3
+            ],
+            [
+              2,
+              6,
+              4,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.062584336,
+              "correct": 873,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0634673846,
+              "nonempty_uncovered": 0,
+              "resolved": 873,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1472728761,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0666242203,
+              "correct": 852,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0802411733,
+              "nonempty_uncovered": 0,
+              "resolved": 852,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1746904699,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0433549802,
+              "correct": 384,
+              "covered": 53,
+              "empty": 142,
+              "fault_valid": 98,
+              "fault_width": 0.0268199658,
+              "nonempty_uncovered": 51,
+              "resolved": 396,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 12
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.062584336,
+              "correct": 873,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0634787377,
+              "nonempty_uncovered": 0,
+              "resolved": 873,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1475807604,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              2,
+              5,
+              6
+            ],
+            [
+              1,
+              7,
+              5,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0311830086,
+              "correct": 951,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0269822345,
+              "nonempty_uncovered": 0,
+              "resolved": 951,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0333139385,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0313869855,
+              "correct": 943,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0314684733,
+              "nonempty_uncovered": 0,
+              "resolved": 943,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.033722695,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0245854532,
+              "correct": 484,
+              "covered": 88,
+              "empty": 121,
+              "fault_valid": 119,
+              "fault_width": 0.0201261314,
+              "nonempty_uncovered": 37,
+              "resolved": 484,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0311830086,
+              "correct": 951,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0270431141,
+              "nonempty_uncovered": 0,
+              "resolved": 951,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0333139385,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              3,
+              6,
+              7
+            ],
+            [
+              6,
+              3,
+              4,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0305327896,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0246143204,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0437320582,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0312725068,
+              "correct": 940,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0322618033,
+              "nonempty_uncovered": 0,
+              "resolved": 940,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0466840996,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0228043555,
+              "correct": 345,
+              "covered": 78,
+              "empty": 156,
+              "fault_valid": 84,
+              "fault_width": 0.0212362813,
+              "nonempty_uncovered": 12,
+              "resolved": 349,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0305327896,
+              "correct": 942,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0246143204,
+              "nonempty_uncovered": 0,
+              "resolved": 942,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0437320582,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              4,
+              6,
+              1
+            ],
+            [
+              4,
+              6,
+              7,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0923050697,
+              "correct": 769,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0772574601,
+              "nonempty_uncovered": 0,
+              "resolved": 769,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1707080638,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0952307209,
+              "correct": 737,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0972375894,
+              "nonempty_uncovered": 0,
+              "resolved": 737,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1743255115,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0526370828,
+              "correct": 248,
+              "covered": 38,
+              "empty": 170,
+              "fault_valid": 70,
+              "fault_width": 0.0388696446,
+              "nonempty_uncovered": 38,
+              "resolved": 269,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 21
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0923050697,
+              "correct": 769,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0772679638,
+              "nonempty_uncovered": 0,
+              "resolved": 769,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1707080638,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              5,
+              5,
+              3
+            ],
+            [
+              6,
+              7,
+              7,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0498391048,
+              "correct": 910,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.039778216,
+              "nonempty_uncovered": 0,
+              "resolved": 910,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0718203012,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0519528571,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0507640258,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0840725109,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0325453266,
+              "correct": 619,
+              "covered": 127,
+              "empty": 82,
+              "fault_valid": 158,
+              "fault_width": 0.02357393,
+              "nonempty_uncovered": 37,
+              "resolved": 625,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 6
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0498391048,
+              "correct": 910,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.039778216,
+              "nonempty_uncovered": 0,
+              "resolved": 910,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0718203012,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              5,
+              7,
+              3
+            ],
+            [
+              5,
+              6,
+              1,
+              4
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.030100695,
+              "correct": 958,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0239966605,
+              "nonempty_uncovered": 0,
+              "resolved": 958,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0368919755,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0306098002,
+              "correct": 945,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0293399413,
+              "nonempty_uncovered": 0,
+              "resolved": 945,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0403175126,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0213746741,
+              "correct": 393,
+              "covered": 74,
+              "empty": 146,
+              "fault_valid": 94,
+              "fault_width": 0.0195879464,
+              "nonempty_uncovered": 26,
+              "resolved": 393,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.030100695,
+              "correct": 958,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0239966605,
+              "nonempty_uncovered": 0,
+              "resolved": 958,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0368919755,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              1,
+              4,
+              3
+            ],
+            [
+              1,
+              7,
+              3,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0424954679,
+              "correct": 913,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0379571262,
+              "nonempty_uncovered": 0,
+              "resolved": 913,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0614353425,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0455859893,
+              "correct": 898,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0425709142,
+              "nonempty_uncovered": 0,
+              "resolved": 898,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0626736476,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0301773357,
+              "correct": 422,
+              "covered": 79,
+              "empty": 133,
+              "fault_valid": 107,
+              "fault_width": 0.0239702037,
+              "nonempty_uncovered": 34,
+              "resolved": 428,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 6
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0424954679,
+              "correct": 913,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0380314348,
+              "nonempty_uncovered": 0,
+              "resolved": 913,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0614353425,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              5,
+              6,
+              6,
+              2
+            ],
+            [
+              6,
+              2,
+              5,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0620272318,
+              "correct": 866,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0529947983,
+              "nonempty_uncovered": 0,
+              "resolved": 866,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1265465335,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0659818418,
+              "correct": 837,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0653072813,
+              "nonempty_uncovered": 0,
+              "resolved": 837,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1275628265,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.032336659,
+              "correct": 289,
+              "covered": 28,
+              "empty": 166,
+              "fault_valid": 74,
+              "fault_width": 0.0220169965,
+              "nonempty_uncovered": 52,
+              "resolved": 295,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 6
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0620272318,
+              "correct": 865,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0531405705,
+              "nonempty_uncovered": 0,
+              "resolved": 865,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1265465335,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              7,
+              7,
+              4
+            ],
+            [
+              1,
+              1,
+              6,
+              2
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0791393594,
+              "correct": 939,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0828127819,
+              "nonempty_uncovered": 0,
+              "resolved": 939,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1877291536,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.095397385,
+              "correct": 926,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1020746853,
+              "nonempty_uncovered": 0,
+              "resolved": 926,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1896551331,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0465590847,
+              "correct": 501,
+              "covered": 82,
+              "empty": 120,
+              "fault_valid": 120,
+              "fault_width": 0.0327739525,
+              "nonempty_uncovered": 44,
+              "resolved": 504,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 3
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0802538082,
+              "correct": 939,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.083008433,
+              "nonempty_uncovered": 0,
+              "resolved": 939,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1877291536,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              1,
+              1,
+              4
+            ],
+            [
+              4,
+              7,
+              4,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0506716539,
+              "correct": 894,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0450671106,
+              "nonempty_uncovered": 0,
+              "resolved": 894,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1143216565,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.062901822,
+              "correct": 846,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0603895259,
+              "nonempty_uncovered": 0,
+              "resolved": 846,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.121941817,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0242615396,
+              "correct": 239,
+              "covered": 40,
+              "empty": 184,
+              "fault_valid": 56,
+              "fault_width": 0.0183312317,
+              "nonempty_uncovered": 22,
+              "resolved": 243,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0506716539,
+              "correct": 894,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0451044349,
+              "nonempty_uncovered": 0,
+              "resolved": 894,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1143216565,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              3,
+              4,
+              1
+            ],
+            [
+              5,
+              6,
+              2,
+              5
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0463396949,
+              "correct": 958,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0396221173,
+              "nonempty_uncovered": 0,
+              "resolved": 958,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0741606397,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0463396949,
+              "correct": 939,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0455948022,
+              "nonempty_uncovered": 0,
+              "resolved": 939,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0741606397,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0368947726,
+              "correct": 397,
+              "covered": 71,
+              "empty": 146,
+              "fault_valid": 94,
+              "fault_width": 0.0265393479,
+              "nonempty_uncovered": 29,
+              "resolved": 397,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 0
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0463396949,
+              "correct": 958,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.039630359,
+              "nonempty_uncovered": 0,
+              "resolved": 958,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0741606397,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              7,
+              2,
+              4
+            ],
+            [
+              2,
+              5,
+              1,
+              1
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0637188794,
+              "correct": 869,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0584043276,
+              "nonempty_uncovered": 0,
+              "resolved": 869,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.110165641,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0712891804,
+              "correct": 835,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0706523229,
+              "nonempty_uncovered": 0,
+              "resolved": 835,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1109122081,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0418476849,
+              "correct": 419,
+              "covered": 67,
+              "empty": 136,
+              "fault_valid": 104,
+              "fault_width": 0.0276203461,
+              "nonempty_uncovered": 43,
+              "resolved": 423,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0637188794,
+              "correct": 869,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0584043276,
+              "nonempty_uncovered": 0,
+              "resolved": 869,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.110165641,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              6,
+              3,
+              2,
+              2
+            ],
+            [
+              7,
+              4,
+              4,
+              7
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0892555138,
+              "correct": 860,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0664636839,
+              "nonempty_uncovered": 0,
+              "resolved": 860,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1564874381,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.096800146,
+              "correct": 786,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0918580954,
+              "nonempty_uncovered": 0,
+              "resolved": 786,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1664302514,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0445104543,
+              "correct": 403,
+              "covered": 55,
+              "empty": 135,
+              "fault_valid": 105,
+              "fault_width": 0.0323380353,
+              "nonempty_uncovered": 56,
+              "resolved": 419,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 16
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0892555138,
+              "correct": 859,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0666498411,
+              "nonempty_uncovered": 0,
+              "resolved": 859,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1564874381,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              7,
+              7,
+              5
+            ],
+            [
+              3,
+              7,
+              4,
+              3
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0236783115,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0217348234,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0429287011,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0238362283,
+              "correct": 897,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0264203422,
+              "nonempty_uncovered": 0,
+              "resolved": 897,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0526433443,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0174257916,
+              "correct": 441,
+              "covered": 99,
+              "empty": 126,
+              "fault_valid": 114,
+              "fault_width": 0.0146409271,
+              "nonempty_uncovered": 21,
+              "resolved": 449,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 8
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0236783115,
+              "correct": 901,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0217348234,
+              "nonempty_uncovered": 0,
+              "resolved": 901,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0429287011,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              4,
+              4,
+              3
+            ],
+            [
+              2,
+              5,
+              1,
+              7
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0277485099,
+              "correct": 892,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0263755093,
+              "nonempty_uncovered": 0,
+              "resolved": 892,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0681162661,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0277485099,
+              "correct": 890,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0294978672,
+              "nonempty_uncovered": 0,
+              "resolved": 890,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0681162661,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0224585643,
+              "correct": 368,
+              "covered": 66,
+              "empty": 147,
+              "fault_valid": 93,
+              "fault_width": 0.0169170145,
+              "nonempty_uncovered": 33,
+              "resolved": 372,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 4
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0277485099,
+              "correct": 892,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0263755093,
+              "nonempty_uncovered": 0,
+              "resolved": 892,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0681162661,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              3,
+              4,
+              1,
+              1
+            ],
+            [
+              6,
+              1,
+              7,
+              7
+            ]
+          ],
+          "methods": {
+            "exact": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0659837861,
+              "correct": 907,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.063187622,
+              "nonempty_uncovered": 0,
+              "resolved": 907,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.162912474,
+              "wrong": 0
+            },
+            "median": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0674719941,
+              "correct": 896,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0799026098,
+              "nonempty_uncovered": 0,
+              "resolved": 896,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1674469096,
+              "wrong": 0
+            },
+            "one_fault_control": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0338095609,
+              "correct": 304,
+              "covered": 42,
+              "empty": 167,
+              "fault_valid": 73,
+              "fault_width": 0.0278716698,
+              "nonempty_uncovered": 37,
+              "resolved": 305,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 1
+            },
+            "pairwise_envelope": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0662306883,
+              "correct": 907,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0632093895,
+              "nonempty_uncovered": 0,
+              "resolved": 907,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.162912474,
+              "wrong": 0
+            }
+          }
+        }
+      ],
+      "trajectories": 384
+    },
+    "shift": {
+      "coherent_alternative_max_separation": 0.393072873,
+      "coherent_alternative_mean_separation": 0.0526278474,
+      "coherent_probes": 1440,
+      "fields": 24,
+      "means": {
+        "correct_shift_radius": {
+          "clean_covered": 144,
+          "clean_valid": 144,
+          "clean_width": 0.070999731,
+          "correct": 20552,
+          "covered": 5904,
+          "empty": 0,
+          "fault_valid": 5760,
+          "fault_width": 0.0674232757,
+          "nonempty_uncovered": 0,
+          "resolved": 20552,
+          "total": 5904,
+          "worst_fault_trajectories": 144,
+          "worst_fault_width": 0.1400318118,
+          "wrong": 0
+        },
+        "understated_shift_radius": {
+          "clean_covered": 120,
+          "clean_valid": 139,
+          "clean_width": 0.0439843961,
+          "correct": 19737,
+          "covered": 3764,
+          "empty": 487,
+          "fault_valid": 5278,
+          "fault_width": 0.038920689,
+          "nonempty_uncovered": 1653,
+          "resolved": 20067,
+          "total": 5904,
+          "worst_fault_trajectories": 102,
+          "worst_fault_width": 0.0958909719,
+          "wrong": 330
+        }
+      },
+      "per_field": [
+        {
+          "field": [
+            [
+              4,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              2,
+              1,
+              8
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0777122536,
+              "correct": 837,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0633967929,
+              "nonempty_uncovered": 0,
+              "resolved": 837,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1062750576,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 6,
+              "clean_width": 0.0355696135,
+              "correct": 869,
+              "covered": 132,
+              "empty": 12,
+              "fault_valid": 228,
+              "fault_width": 0.0303261838,
+              "nonempty_uncovered": 102,
+              "resolved": 872,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.0732358003,
+              "wrong": 3
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              4,
+              2,
+              2
+            ],
+            [
+              8,
+              8,
+              1,
+              1
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0458010124,
+              "correct": 908,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.066933627,
+              "nonempty_uncovered": 0,
+              "resolved": 908,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1469405071,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 5,
+              "clean_width": 0.0238265983,
+              "correct": 608,
+              "covered": 47,
+              "empty": 79,
+              "fault_valid": 162,
+              "fault_width": 0.0377004948,
+              "nonempty_uncovered": 120,
+              "resolved": 637,
+              "total": 246,
+              "worst_fault_trajectories": 0,
+              "worst_fault_width": null,
+              "wrong": 29
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              2,
+              4,
+              16
+            ],
+            [
+              8,
+              4,
+              8,
+              16
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.017652104,
+              "correct": 940,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.01952911,
+              "nonempty_uncovered": 0,
+              "resolved": 940,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0686144408,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 6,
+              "clean_width": 0.0092400898,
+              "correct": 895,
+              "covered": 179,
+              "empty": 12,
+              "fault_valid": 228,
+              "fault_width": 0.012894062,
+              "nonempty_uncovered": 55,
+              "resolved": 895,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.0442453503,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              1,
+              2,
+              8
+            ],
+            [
+              4,
+              4,
+              8,
+              8
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0661644593,
+              "correct": 888,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.060933042,
+              "nonempty_uncovered": 0,
+              "resolved": 888,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1871764062,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 6,
+              "clean_width": 0.0410137538,
+              "correct": 843,
+              "covered": 168,
+              "empty": 27,
+              "fault_valid": 213,
+              "fault_width": 0.0386382083,
+              "nonempty_uncovered": 51,
+              "resolved": 843,
+              "total": 246,
+              "worst_fault_trajectories": 4,
+              "worst_fault_width": 0.1731057637,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              8,
+              2,
+              8
+            ],
+            [
+              16,
+              8,
+              2,
+              8
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0652431627,
+              "correct": 828,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.055678527,
+              "nonempty_uncovered": 0,
+              "resolved": 828,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1184743153,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 6,
+              "clean_width": 0.041597779,
+              "correct": 678,
+              "covered": 109,
+              "empty": 44,
+              "fault_valid": 196,
+              "fault_width": 0.0385250773,
+              "nonempty_uncovered": 93,
+              "resolved": 712,
+              "total": 246,
+              "worst_fault_trajectories": 3,
+              "worst_fault_width": 0.1114748808,
+              "wrong": 34
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              16,
+              16,
+              4
+            ],
+            [
+              8,
+              16,
+              16,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0470358767,
+              "correct": 955,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0470184801,
+              "nonempty_uncovered": 0,
+              "resolved": 955,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1070396754,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 6,
+              "clean_width": 0.0314419854,
+              "correct": 926,
+              "covered": 173,
+              "empty": 11,
+              "fault_valid": 229,
+              "fault_width": 0.0323277371,
+              "nonempty_uncovered": 62,
+              "resolved": 926,
+              "total": 246,
+              "worst_fault_trajectories": 4,
+              "worst_fault_width": 0.0708897369,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              2,
+              16,
+              8
+            ],
+            [
+              16,
+              8,
+              16,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0292515561,
+              "correct": 924,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0259774772,
+              "nonempty_uncovered": 0,
+              "resolved": 924,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0470572096,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0195384981,
+              "correct": 924,
+              "covered": 209,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0180112023,
+              "nonempty_uncovered": 37,
+              "resolved": 924,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0408150655,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              8,
+              2,
+              4,
+              16
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0502855568,
+              "correct": 835,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0519087541,
+              "nonempty_uncovered": 0,
+              "resolved": 835,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1208583392,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 4,
+              "clean_width": 0.0304533881,
+              "correct": 619,
+              "covered": 118,
+              "empty": 65,
+              "fault_valid": 177,
+              "fault_width": 0.0271878045,
+              "nonempty_uncovered": 63,
+              "resolved": 636,
+              "total": 246,
+              "worst_fault_trajectories": 3,
+              "worst_fault_width": 0.110343631,
+              "wrong": 17
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              4,
+              1,
+              8
+            ],
+            [
+              4,
+              2,
+              1,
+              1
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1347944229,
+              "correct": 716,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1138510324,
+              "nonempty_uncovered": 0,
+              "resolved": 716,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1866418603,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 5,
+              "clean_width": 0.0796469177,
+              "correct": 728,
+              "covered": 148,
+              "empty": 28,
+              "fault_valid": 213,
+              "fault_width": 0.0625391192,
+              "nonempty_uncovered": 70,
+              "resolved": 744,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.1409043236,
+              "wrong": 16
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              16,
+              2,
+              2
+            ],
+            [
+              1,
+              16,
+              1,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0807860896,
+              "correct": 861,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0578051495,
+              "nonempty_uncovered": 0,
+              "resolved": 861,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.090932392,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 6,
+              "clean_width": 0.0350496712,
+              "correct": 898,
+              "covered": 151,
+              "empty": 10,
+              "fault_valid": 230,
+              "fault_width": 0.0266032894,
+              "nonempty_uncovered": 85,
+              "resolved": 898,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.0483560728,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              2,
+              2,
+              2
+            ],
+            [
+              16,
+              1,
+              16,
+              1
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1095615291,
+              "correct": 742,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1391140699,
+              "nonempty_uncovered": 0,
+              "resolved": 742,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.3669970039,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0715326941,
+              "correct": 728,
+              "covered": 173,
+              "empty": 30,
+              "fault_valid": 210,
+              "fault_width": 0.0790040943,
+              "nonempty_uncovered": 43,
+              "resolved": 756,
+              "total": 246,
+              "worst_fault_trajectories": 3,
+              "worst_fault_width": 0.2740168575,
+              "wrong": 28
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              16,
+              4,
+              4
+            ],
+            [
+              8,
+              2,
+              4,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0934784373,
+              "correct": 850,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0770789456,
+              "nonempty_uncovered": 0,
+              "resolved": 850,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.152365026,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 6,
+              "clean_width": 0.0591786019,
+              "correct": 712,
+              "covered": 100,
+              "empty": 54,
+              "fault_valid": 186,
+              "fault_width": 0.0474231094,
+              "nonempty_uncovered": 92,
+              "resolved": 717,
+              "total": 246,
+              "worst_fault_trajectories": 1,
+              "worst_fault_width": 0.0902043819,
+              "wrong": 5
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              4,
+              2,
+              8
+            ],
+            [
+              2,
+              8,
+              4,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0597701636,
+              "correct": 868,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0538129503,
+              "nonempty_uncovered": 0,
+              "resolved": 868,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0955150651,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0416792538,
+              "correct": 840,
+              "covered": 198,
+              "empty": 18,
+              "fault_valid": 222,
+              "fault_width": 0.0312104852,
+              "nonempty_uncovered": 30,
+              "resolved": 859,
+              "total": 246,
+              "worst_fault_trajectories": 4,
+              "worst_fault_width": 0.0665387794,
+              "wrong": 19
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              8,
+              8,
+              1
+            ],
+            [
+              16,
+              16,
+              1,
+              2
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1049441918,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0866895419,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1571469373,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0692708045,
+              "correct": 940,
+              "covered": 191,
+              "empty": 11,
+              "fault_valid": 229,
+              "fault_width": 0.0556872829,
+              "nonempty_uncovered": 44,
+              "resolved": 940,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.1263265372,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              16,
+              4,
+              4,
+              4
+            ],
+            [
+              1,
+              4,
+              8,
+              2
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1194137142,
+              "correct": 778,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0963096848,
+              "nonempty_uncovered": 0,
+              "resolved": 778,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2325179008,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0931702323,
+              "correct": 807,
+              "covered": 189,
+              "empty": 10,
+              "fault_valid": 230,
+              "fault_width": 0.0623917275,
+              "nonempty_uncovered": 47,
+              "resolved": 812,
+              "total": 246,
+              "worst_fault_trajectories": 4,
+              "worst_fault_width": 0.1672798338,
+              "wrong": 5
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              16,
+              4,
+              1
+            ],
+            [
+              1,
+              4,
+              1,
+              2
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1057918037,
+              "correct": 865,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0842285582,
+              "nonempty_uncovered": 0,
+              "resolved": 865,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1578498403,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 6,
+              "clean_width": 0.060156124,
+              "correct": 918,
+              "covered": 154,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0474561644,
+              "nonempty_uncovered": 92,
+              "resolved": 918,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1046883559,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              8,
+              2,
+              2,
+              16
+            ],
+            [
+              8,
+              8,
+              16,
+              2
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0422407785,
+              "correct": 798,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0388424031,
+              "nonempty_uncovered": 0,
+              "resolved": 798,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0649402062,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 6,
+              "clean_width": 0.0280668636,
+              "correct": 730,
+              "covered": 147,
+              "empty": 26,
+              "fault_valid": 214,
+              "fault_width": 0.0209082876,
+              "nonempty_uncovered": 73,
+              "resolved": 785,
+              "total": 246,
+              "worst_fault_trajectories": 3,
+              "worst_fault_width": 0.0414798421,
+              "wrong": 55
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              4,
+              1,
+              1
+            ],
+            [
+              1,
+              8,
+              4,
+              2
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.1048442675,
+              "correct": 771,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.1069900635,
+              "nonempty_uncovered": 0,
+              "resolved": 771,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2042799438,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0654452813,
+              "correct": 800,
+              "covered": 135,
+              "empty": 3,
+              "fault_valid": 237,
+              "fault_width": 0.0553502995,
+              "nonempty_uncovered": 108,
+              "resolved": 849,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.1168865292,
+              "wrong": 49
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              16,
+              8,
+              2
+            ],
+            [
+              4,
+              16,
+              16,
+              8
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0476187892,
+              "correct": 984,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0400659092,
+              "nonempty_uncovered": 0,
+              "resolved": 984,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0949642651,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0347249379,
+              "correct": 944,
+              "covered": 184,
+              "empty": 10,
+              "fault_valid": 230,
+              "fault_width": 0.0281096409,
+              "nonempty_uncovered": 52,
+              "resolved": 944,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.0587977087,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              1,
+              8,
+              8
+            ],
+            [
+              16,
+              16,
+              16,
+              2
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0561317009,
+              "correct": 895,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0515205055,
+              "nonempty_uncovered": 0,
+              "resolved": 895,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.07158262,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 4,
+              "clean_valid": 6,
+              "clean_width": 0.0275781542,
+              "correct": 961,
+              "covered": 147,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0228668733,
+              "nonempty_uncovered": 99,
+              "resolved": 961,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0401326016,
+              "wrong": 0
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              4,
+              2,
+              16,
+              8
+            ],
+            [
+              4,
+              1,
+              2,
+              1
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0792025162,
+              "correct": 814,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0879211588,
+              "nonempty_uncovered": 0,
+              "resolved": 814,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1474296903,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 5,
+              "clean_width": 0.0533081691,
+              "correct": 790,
+              "covered": 178,
+              "empty": 23,
+              "fault_valid": 218,
+              "fault_width": 0.0506246687,
+              "nonempty_uncovered": 45,
+              "resolved": 803,
+              "total": 246,
+              "worst_fault_trajectories": 4,
+              "worst_fault_width": 0.0797235917,
+              "wrong": 13
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              2,
+              1,
+              4
+            ],
+            [
+              16,
+              1,
+              16,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0685856282,
+              "correct": 826,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0711710894,
+              "nonempty_uncovered": 0,
+              "resolved": 826,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.1296399085,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 6,
+              "clean_width": 0.0404041301,
+              "correct": 821,
+              "covered": 190,
+              "empty": 8,
+              "fault_valid": 232,
+              "fault_width": 0.0362807249,
+              "nonempty_uncovered": 48,
+              "resolved": 850,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.0741426964,
+              "wrong": 29
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              1,
+              2,
+              16,
+              4
+            ],
+            [
+              16,
+              8,
+              8,
+              16
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0398238938,
+              "correct": 927,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0304216719,
+              "nonempty_uncovered": 0,
+              "resolved": 927,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0461192757,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 5,
+              "clean_valid": 6,
+              "clean_width": 0.0239109206,
+              "correct": 932,
+              "covered": 186,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.017242354,
+              "nonempty_uncovered": 60,
+              "resolved": 953,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.0304120154,
+              "wrong": 21
+            }
+          }
+        },
+        {
+          "field": [
+            [
+              2,
+              2,
+              16,
+              2
+            ],
+            [
+              16,
+              1,
+              1,
+              4
+            ]
+          ],
+          "methods": {
+            "correct_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0578596363,
+              "correct": 758,
+              "covered": 246,
+              "empty": 0,
+              "fault_valid": 240,
+              "fault_width": 0.0909600713,
+              "nonempty_uncovered": 0,
+              "resolved": 758,
+              "total": 246,
+              "worst_fault_trajectories": 6,
+              "worst_fault_width": 0.2594055969,
+              "wrong": 0
+            },
+            "understated_shift_radius": {
+              "clean_covered": 6,
+              "clean_valid": 6,
+              "clean_width": 0.0394487908,
+              "correct": 826,
+              "covered": 158,
+              "empty": 6,
+              "fault_valid": 234,
+              "fault_width": 0.0586918511,
+              "nonempty_uncovered": 82,
+              "resolved": 833,
+              "total": 246,
+              "worst_fault_trajectories": 5,
+              "worst_fault_width": 0.2275629951,
+              "wrong": 7
+            }
+          }
+        }
+      ],
+      "trajectories": 144
+    }
+  },
+  "primary_comparison": {
+    "mean_reduction": 7.69121e-05,
+    "paired_95_interval": [
+      7.717e-06,
+      0.0001674324
+    ],
+    "practical_gate_passed": false,
+    "relative_reduction": 0.0007039441
+  },
+  "protocol_sha256": "48fd0bb23dea13dcd7314bf9ca054dccc8e7dac8b15968adea665c385d13d291",
+  "split_specification": {
+    "nominal": [
+      16708821,
+      5509181,
+      64,
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "shift": [
+      16709113,
+      5509543,
+      24,
+      [
+        1,
+        2,
+        4,
+        8,
+        16
+      ]
+    ]
+  }
+}
