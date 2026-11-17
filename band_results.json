@@ -1,0 +1,1152 @@
+{
+  "fixture": {
+    "band": [
+      0.4,
+      0.6
+    ],
+    "hull": [
+      0,
+      1
+    ],
+    "hull_decision": "abstain",
+    "possible_joint_occupancies": [
+      0,
+      1
+    ],
+    "union_decision": "outside"
+  },
+  "nominal": {
+    "fields": 48,
+    "gain_pp": 0.008468834688346883,
+    "overall": {
+      "additional_by_band": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "additional_clean": 0,
+      "additional_fault": 4,
+      "band_queries": 47232,
+      "disconnected": 2114,
+      "hull_certified": 39204,
+      "transcripts": 11808,
+      "union_certified": 39208
+    },
+    "paired_field_interval_pp": [
+      0.0,
+      0.02328929539295393
+    ],
+    "per_field": [
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 52,
+        "hull_certified": 955,
+        "transcripts": 246,
+        "union_certified": 955
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 33,
+        "hull_certified": 886,
+        "transcripts": 246,
+        "union_certified": 886
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 42,
+        "hull_certified": 706,
+        "transcripts": 246,
+        "union_certified": 706
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 48,
+        "hull_certified": 782,
+        "transcripts": 246,
+        "union_certified": 782
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 36,
+        "hull_certified": 728,
+        "transcripts": 246,
+        "union_certified": 728
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 56,
+        "hull_certified": 722,
+        "transcripts": 246,
+        "union_certified": 722
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 23,
+        "hull_certified": 904,
+        "transcripts": 246,
+        "union_certified": 904
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 67,
+        "hull_certified": 816,
+        "transcripts": 246,
+        "union_certified": 816
+      },
+      {
+        "additional_by_band": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 1,
+        "band_queries": 984,
+        "disconnected": 69,
+        "hull_certified": 684,
+        "transcripts": 246,
+        "union_certified": 685
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 44,
+        "hull_certified": 645,
+        "transcripts": 246,
+        "union_certified": 645
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 53,
+        "hull_certified": 763,
+        "transcripts": 246,
+        "union_certified": 763
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 72,
+        "hull_certified": 794,
+        "transcripts": 246,
+        "union_certified": 794
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 63,
+        "hull_certified": 702,
+        "transcripts": 246,
+        "union_certified": 702
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 11,
+        "hull_certified": 920,
+        "transcripts": 246,
+        "union_certified": 920
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 36,
+        "hull_certified": 715,
+        "transcripts": 246,
+        "union_certified": 715
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 18,
+        "hull_certified": 848,
+        "transcripts": 246,
+        "union_certified": 848
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 48,
+        "hull_certified": 729,
+        "transcripts": 246,
+        "union_certified": 729
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 40,
+        "hull_certified": 922,
+        "transcripts": 246,
+        "union_certified": 922
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 61,
+        "hull_certified": 833,
+        "transcripts": 246,
+        "union_certified": 833
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 47,
+        "hull_certified": 912,
+        "transcripts": 246,
+        "union_certified": 912
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 57,
+        "hull_certified": 874,
+        "transcripts": 246,
+        "union_certified": 874
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 4,
+        "hull_certified": 982,
+        "transcripts": 246,
+        "union_certified": 982
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 12,
+        "hull_certified": 710,
+        "transcripts": 246,
+        "union_certified": 710
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 41,
+        "hull_certified": 769,
+        "transcripts": 246,
+        "union_certified": 769
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 83,
+        "hull_certified": 784,
+        "transcripts": 246,
+        "union_certified": 784
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 31,
+        "hull_certified": 894,
+        "transcripts": 246,
+        "union_certified": 894
+      },
+      {
+        "additional_by_band": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 3,
+        "band_queries": 984,
+        "disconnected": 72,
+        "hull_certified": 667,
+        "transcripts": 246,
+        "union_certified": 670
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 8,
+        "hull_certified": 952,
+        "transcripts": 246,
+        "union_certified": 952
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 31,
+        "hull_certified": 764,
+        "transcripts": 246,
+        "union_certified": 764
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 38,
+        "hull_certified": 901,
+        "transcripts": 246,
+        "union_certified": 901
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 47,
+        "hull_certified": 778,
+        "transcripts": 246,
+        "union_certified": 778
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 51,
+        "hull_certified": 700,
+        "transcripts": 246,
+        "union_certified": 700
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 57,
+        "hull_certified": 822,
+        "transcripts": 246,
+        "union_certified": 822
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 27,
+        "hull_certified": 952,
+        "transcripts": 246,
+        "union_certified": 952
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 26,
+        "hull_certified": 902,
+        "transcripts": 246,
+        "union_certified": 902
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 70,
+        "hull_certified": 772,
+        "transcripts": 246,
+        "union_certified": 772
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 16,
+        "hull_certified": 972,
+        "transcripts": 246,
+        "union_certified": 972
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 21,
+        "hull_certified": 684,
+        "transcripts": 246,
+        "union_certified": 684
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 55,
+        "hull_certified": 774,
+        "transcripts": 246,
+        "union_certified": 774
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 45,
+        "hull_certified": 943,
+        "transcripts": 246,
+        "union_certified": 943
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 70,
+        "hull_certified": 771,
+        "transcripts": 246,
+        "union_certified": 771
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 26,
+        "hull_certified": 940,
+        "transcripts": 246,
+        "union_certified": 940
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 42,
+        "hull_certified": 815,
+        "transcripts": 246,
+        "union_certified": 815
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 22,
+        "hull_certified": 860,
+        "transcripts": 246,
+        "union_certified": 860
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 78,
+        "hull_certified": 861,
+        "transcripts": 246,
+        "union_certified": 861
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 27,
+        "hull_certified": 818,
+        "transcripts": 246,
+        "union_certified": 818
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 94,
+        "hull_certified": 857,
+        "transcripts": 246,
+        "union_certified": 857
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 44,
+        "hull_certified": 720,
+        "transcripts": 246,
+        "union_certified": 720
+      }
+    ],
+    "wrong_calls": 0
+  },
+  "practical_gate_met": false,
+  "protocol_sha256": "84da161aa148a256e0afc6bb63d00c2af178b86105a841ed9bddffda6f3722cb",
+  "widened_calibration": {
+    "fields": 24,
+    "gain_pp": 0.48272357723577236,
+    "overall": {
+      "additional_by_band": [
+        42,
+        36,
+        14,
+        22
+      ],
+      "additional_clean": 0,
+      "additional_fault": 114,
+      "band_queries": 23616,
+      "disconnected": 1220,
+      "hull_certified": 18362,
+      "transcripts": 5904,
+      "union_certified": 18476
+    },
+    "paired_field_interval_pp": [
+      0.11856368563685638,
+      0.9612127371273713
+    ],
+    "per_field": [
+      {
+        "additional_by_band": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 1,
+        "band_queries": 984,
+        "disconnected": 76,
+        "hull_certified": 644,
+        "transcripts": 246,
+        "union_certified": 645
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 27,
+        "hull_certified": 984,
+        "transcripts": 246,
+        "union_certified": 984
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 22,
+        "hull_certified": 638,
+        "transcripts": 246,
+        "union_certified": 638
+      },
+      {
+        "additional_by_band": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 4,
+        "band_queries": 984,
+        "disconnected": 37,
+        "hull_certified": 891,
+        "transcripts": 246,
+        "union_certified": 895
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 43,
+        "hull_certified": 799,
+        "transcripts": 246,
+        "union_certified": 799
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 31,
+        "hull_certified": 869,
+        "transcripts": 246,
+        "union_certified": 869
+      },
+      {
+        "additional_by_band": [
+          5,
+          5,
+          4,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 14,
+        "band_queries": 984,
+        "disconnected": 76,
+        "hull_certified": 540,
+        "transcripts": 246,
+        "union_certified": 554
+      },
+      {
+        "additional_by_band": [
+          5,
+          9,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 14,
+        "band_queries": 984,
+        "disconnected": 81,
+        "hull_certified": 549,
+        "transcripts": 246,
+        "union_certified": 563
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 31,
+        "hull_certified": 877,
+        "transcripts": 246,
+        "union_certified": 877
+      },
+      {
+        "additional_by_band": [
+          2,
+          1,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 3,
+        "band_queries": 984,
+        "disconnected": 72,
+        "hull_certified": 813,
+        "transcripts": 246,
+        "union_certified": 816
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 68,
+        "hull_certified": 552,
+        "transcripts": 246,
+        "union_certified": 552
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 38,
+        "hull_certified": 615,
+        "transcripts": 246,
+        "union_certified": 615
+      },
+      {
+        "additional_by_band": [
+          21,
+          11,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 32,
+        "band_queries": 984,
+        "disconnected": 55,
+        "hull_certified": 893,
+        "transcripts": 246,
+        "union_certified": 925
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 60,
+        "hull_certified": 792,
+        "transcripts": 246,
+        "union_certified": 792
+      },
+      {
+        "additional_by_band": [
+          2,
+          1,
+          1,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 4,
+        "band_queries": 984,
+        "disconnected": 66,
+        "hull_certified": 602,
+        "transcripts": 246,
+        "union_certified": 606
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 8,
+        "hull_certified": 656,
+        "transcripts": 246,
+        "union_certified": 656
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 60,
+        "hull_certified": 836,
+        "transcripts": 246,
+        "union_certified": 836
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 74,
+        "hull_certified": 564,
+        "transcripts": 246,
+        "union_certified": 564
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 18,
+        "hull_certified": 980,
+        "transcripts": 246,
+        "union_certified": 980
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 14,
+        "hull_certified": 957,
+        "transcripts": 246,
+        "union_certified": 957
+      },
+      {
+        "additional_by_band": [
+          6,
+          6,
+          8,
+          22
+        ],
+        "additional_clean": 0,
+        "additional_fault": 42,
+        "band_queries": 984,
+        "disconnected": 104,
+        "hull_certified": 798,
+        "transcripts": 246,
+        "union_certified": 840
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 51,
+        "hull_certified": 802,
+        "transcripts": 246,
+        "union_certified": 802
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 41,
+        "hull_certified": 925,
+        "transcripts": 246,
+        "union_certified": 925
+      },
+      {
+        "additional_by_band": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "additional_clean": 0,
+        "additional_fault": 0,
+        "band_queries": 984,
+        "disconnected": 67,
+        "hull_certified": 786,
+        "transcripts": 246,
+        "union_certified": 786
+      }
+    ],
+    "wrong_calls": 0
+  }
+}

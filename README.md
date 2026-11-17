@@ -1,6 +1,6 @@
 # Measuring joint occupancy in a system with two switches
 
-**Start with the [latest two-fault stress test](TWO_FAULT_REPORT.md) and the [one-fault experiment and proof](FAULT_TOLERANCE.md).** Run the replays with Python 3.12 and the [pinned NumPy dependency](requirements.txt).
+**Start with [operating-band decisions](BAND_REPORT.md), the [two-fault stress test](TWO_FAULT_REPORT.md) and the [one-fault experiment and proof](FAULT_TOLERANCE.md).** Run the replays with Python 3.12 and the NumPy version listed in each report.
 
 Two reachable switching histories can start and finish at the same state and give identical individual duty cycles while disagreeing on how often the two switches are active together. On a short, abstract two-relay system, I proved how to compute the exact worst-case uncertainty for the available readings and tested which single extra counter to install. Across 768 held-out simulated windows, the chosen counter reduced the mean interval for joint occupancy from **34.875 to 2.857 percentage points** relative to displacement alone. The stronger question was whether it paid to choose the counter per setting. The reduction over a fixed counter chosen on separate development fields was **0.707 points** (19.8% relative), below the prespecified 2-point practical threshold.
 
